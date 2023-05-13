@@ -5,7 +5,7 @@
 #include "mmu.h"
 #include "spinlock.h"
 #include "slab.h"
-
+  
 struct {
   struct spinlock lock;
   struct slab slab[NSLAB];
